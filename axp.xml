@@ -16,7 +16,7 @@
               fetch="https://github.com/GrapheneOS" 
               revision="13" />
        <remote name="muppets" 
-              fetch="https://github.com/GrapheneOS" 
+              fetch="https://github.com/TheMuppets" 
               revision="lineage-20" />
   
         <!-- FIRMWARE related repo, not shared public and even not on github bc they want money for LFS  -->
