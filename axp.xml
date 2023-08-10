@@ -4,8 +4,8 @@
   <!-- START OF REMOTE DEFINITIONS -->
         <remote name="sfX" fetch="https://github.com/sfX-Android/" />
         <remote name="axp.os" fetch="https://github.com/AXP-OS/" revision="axp-a13" />
-        <!-- FIRMWARE related repo, not shared public!  -->
-        <remote name="sfX-private" fetch="ssh://code.binbash.rocks:22227/nonpublic" />
+        <!-- FIRMWARE related repo, not shared public and even not on github bc they want money for LFS  -->
+        <remote name="axp.os-private" fetch="ssh://code.binbash.rocks:22227/AXP.OS" />
   
         <remote name="gitlab" fetch="https://gitlab.com/" />
         <remote name="angry" fetch="https://gitea.angry.im/" />
@@ -59,12 +59,14 @@
 <!-- END OF ADDITIONAL REPOS -->
 
 <!-- START OF AXP.OS REPOS -->
+        <!-- AXP.OS vendor -->
+        <project path="vendor/axp" name="vendor_axp" remote="axp.os" revision="main" />
+        <!-- vendor/firmware repo - !not shared public! -->
+        <project path="vendor/firmware" name="vendor_firmware" remote="axp.os-private" />
         <!-- extendrom -->
         <project path="vendor/extendrom" name="android_vendor_extendrom" remote="sfX" revision="main" />
         <!-- build tools -->
         <project path="external/buildtools" name="android_buildtools" remote="sfX" revision="main" />
-        <!-- AXP.OS vendor -->
-        <project path="vendor/axp" name="vendor_axp" remote="axp.os" revision="main" />
 <!-- END OF AXP.OS REPOS -->
 
 <!-- START OF DEVICE REPOS -->
@@ -87,8 +89,6 @@
   
         <!-- Common Proprietary Blobs -->
         <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="github" revision="lineage-20" />
-        <!-- vendor/firmware repo - !not shared public! -->
-        <project path="vendor/firmware" name="divest_vendor_firmware" remote="axp.os" />
         <project path="vendor/oneplus/msm8998-common" name="TheMuppets/proprietary_vendor_oneplus_msm8998-common" remote="github" revision="lineage-20" />
 <!-- END OF DEVICE REPOS -->
 
