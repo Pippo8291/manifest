@@ -6,6 +6,8 @@
         <remote name="axp.os" fetch="https://github.com/AXP-OS/" revision="axp-a13" />
         <!-- FIRMWARE related repo, not shared public and even not on github bc they want money for LFS  -->
         <remote name="axp.os-private" fetch="ssh://code.binbash.rocks:22227/AXP.OS" />
+        <!-- Wireguard module -->
+        <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
   
         <remote name="gitlab" fetch="https://gitlab.com/" />
         <remote name="angry" fetch="https://gitea.angry.im/" />
@@ -68,9 +70,7 @@
         <!-- build tools -->
         <project path="external/buildtools" name="android_buildtools" remote="sfX" revision="main" />
         <!-- WireGuard VPN -->
-        <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
-        <project remote="zx2c4" name="wireguard-linux-compat" path="kernel/wireguard-linux-compat" revision="master" sync-s="true">
-        <linkfile src="src" dest="kernel/oneplus/sm8150/net/wireguard" />
+        <project remote="zx2c4" name="wireguard-linux-compat" path="kernel/wireguard-linux-compat" revision="master" sync-s="true" />
 <!-- END OF AXP.OS REPOS -->
 
 <!-- START OF DEVICE REPOS -->
