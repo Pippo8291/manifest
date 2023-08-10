@@ -77,8 +77,8 @@
   
 <!-- START OF ADDITIONAL REPOS -->
         <!-- GrapheneOS -->
-        <project path="external/hardened_malloc" name="GrapheneOS/hardened_malloc" remote="gos" />
-        <project path="external/SecureCamera" name="GrapheneOS/platform_external_Camera" remote="gos" />
+        <project path="external/hardened_malloc" name="hardened_malloc" remote="gos" />
+        <!--project path="external/SecureCamera" name="platform_external_Camera" remote="gos" />-->
 <!-- END OF ADDITIONAL REPOS -->
 
 <!-- START OF AXP.OS REPOS -->
