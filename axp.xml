@@ -2,13 +2,19 @@
 <manifest>
 
   <!-- START OF REMOTE DEFINITIONS -->
-        <remote name="sfX" fetch="https://github.com/sfX-Android/" />
-        <remote name="axp.os" fetch="https://github.com/AXP-OS/" revision="axp-a13" />
+        <remote name="sfX" 
+                fetch="https://github.com/sfX-Android/" />
+        <remote name="axp.os" 
+                fetch="https://github.com/AXP-OS/"
+                revision="axp-a13" />
         <!-- FIRMWARE related repo, not shared public and even not on github bc they want money for LFS  -->
-        <remote name="axp.os-private" fetch="ssh://code.binbash.rocks:22227/AXP.OS" />
+        <remote name="axp.os-private" 
+              fetch="ssh://code.binbash.rocks:22227/AXP.OS"
+              revision="axp-a13" />
         <!-- Wireguard module -->
-        <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
-  
+        <remote name="zx2c4" 
+              fetch="https://git.zx2c4.com/" />
+        <!-- from DOS -->  
         <remote name="gitlab" fetch="https://gitlab.com/" />
         <remote name="angry" fetch="https://gitea.angry.im/" />
 <!-- END OF REMOTE DEFINITIONS -->
