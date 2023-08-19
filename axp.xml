@@ -85,7 +85,7 @@
         <!-- AXP.OS vendor -->
         <project path="vendor/axp" name="vendor_axp" remote="axp.os" revision="main" />
         <!-- vendor/firmware repo - !not shared public! -->
-        <project path="vendor/firmware" name="vendor_firmware" remote="axp.os-private" revision="axp-test" />
+        <project path="vendor/firmware" name="vendor_firmware" remote="axp.os-private" revision="android-13_nolock" />
         <!-- extendrom -->
         <project path="vendor/extendrom" name="android_vendor_extendrom" remote="sfX" revision="main" />
         <!-- build tools -->
