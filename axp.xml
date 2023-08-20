@@ -107,7 +107,7 @@
 
         <!-- OnePlus 7T Pro (hotdog) -->
         <project path="device/oneplus/hotdog" name="android_device_oneplus_hotdog" remote="los" />
-        <project path="device/oneplus/sm8150-common" name="android_device_oneplus_sm8150-common" remote="sfX" />
+        <project path="device/oneplus/sm8150-common" name="android_device_oneplus_sm8150-common" remote="sfX" revision="axp-a13-H38" />
         <project path="kernel/oneplus/sm8150" name="android_kernel_oneplus_sm8150" remote="los" />
         <project path="vendor/oneplus/hotdog" name="proprietary_vendor_oneplus_hotdog" remote="axp.os-private" revision="lineage-20" />
         <project path="vendor/oneplus/sm8150-common" name="proprietary_vendor_oneplus_sm8150-common" remote="axp.os-private" revision="lineage-20" />
