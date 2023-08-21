@@ -110,7 +110,7 @@
         <project path="device/oneplus/sm8150-common" name="android_device_oneplus_sm8150-common" remote="sfX" />
         <project path="kernel/oneplus/sm8150" name="android_kernel_oneplus_sm8150" remote="los" />
         <project path="vendor/oneplus/hotdog" name="proprietary_vendor_oneplus_hotdog" remote="axp.os-private" />
-        <project path="vendor/oneplus/sm8150-common" name="proprietary_vendor_oneplus_sm8150-common" remote="axp.os-private" revision="lineage-20" />
+        <project path="vendor/oneplus/sm8150-common" name="proprietary_vendor_oneplus_sm8150-common" remote="axp.os-private" />
   
         <!-- Common Proprietary Blobs -->
         <project path="hardware/oplus" name="android_hardware_oplus" remote="los" />
