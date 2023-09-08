@@ -106,7 +106,7 @@
         <project path="system/qcom" name="android_system_qcom" remote="los" />
         <project path="external/bson" name="android_external_bson" remote="los" />
         <project path="hardware/sony/SonyOpenTelephony" name="android_hardware_sony_SonyOpenTelephony" remote="los" />
-        <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" revision="lineage-20.0" />
+        <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" remote="los" revision="lineage-20.0" />
 
         <!-- oneplus - common -->
         <project path="hardware/oplus" name="android_hardware_oplus" remote="los" />
