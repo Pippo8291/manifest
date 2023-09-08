@@ -123,7 +123,7 @@
         <project path="vendor/oneplus/sm8150-common" name="proprietary_vendor_oneplus_sm8150-common" remote="axp.os-private" />
         
         <!-- OnePlus 6T Pro (fajita) -->
-        <project path="device/oneplus/fajita" name="android_device_oneplus_hotdog" remote="axp.os" />
+        <project path="device/oneplus/fajita" name="android_device_oneplus_fajita" remote="axp.os" />
         <project path="vendor/oneplus/fajita" name="proprietary_vendor_oneplus_fajita" remote="muppets" />
 
         <!-- OnePlus 7T Pro (hotdog) -->
