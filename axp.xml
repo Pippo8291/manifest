@@ -78,7 +78,10 @@
 <!-- START OF ADDITIONAL REPOS -->
         <!-- GrapheneOS -->
         <project path="external/hardened_malloc" name="hardened_malloc" remote="gos" />
-        <!--project path="external/SecureCamera" name="platform_external_Camera" remote="gos" />-->
+
+        <!-- OpenEUICC -->
+	<project path="packages/apps/OpenEUICC" name="PeterCxy/OpenEUICC" remote="angry" revision="6add8c89ac141f177cd8d124a0a955232f4222f9" />
+	<project path="prebuilts/openeuicc-deps" name="PeterCxy/android_prebuilts_openeuicc-deps" remote="angry" revision="55f3e2c7ab26484f7478b26540fa14392d0c2cd7" />
 <!-- END OF ADDITIONAL REPOS -->
 
 <!-- START OF AXP.OS REPOS -->
