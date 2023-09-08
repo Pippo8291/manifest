@@ -124,7 +124,7 @@
         
         <!-- OnePlus 6T Pro (fajita) -->
         <project path="device/oneplus/fajita" name="android_device_oneplus_hotdog" remote="axp.os" />
-        <project path="vendor/oneplus/hotdog" name="proprietary_vendor_oneplus_fajita" remote="muppets" />
+        <project path="vendor/oneplus/fajita" name="proprietary_vendor_oneplus_fajita" remote="muppets" />
 
         <!-- OnePlus 7T Pro (hotdog) -->
         <project path="device/oneplus/hotdog" name="android_device_oneplus_hotdog" remote="axp.os" />
