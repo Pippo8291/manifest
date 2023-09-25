@@ -100,7 +100,7 @@
 	
 	<!-- temp until hopefully accepted upstream -->
 	<remove-project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" />
-	<project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault remote="axp.os" />
+	<project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="axp.os" />
 <!-- END OF AXP.OS REPOS -->
 
 <!-- START OF DEVICE REPOS -->
