@@ -4,19 +4,23 @@
 <!-- START OF REMOTE DEFINITIONS -->
 
         <remote name="sfX" 
-              fetch="https://github.com/sfX-Android/" 
-              revision="axp-a13" />  
+              fetch="https://github.com/sfX-Android/"
+              revision="axp-a13" />
+	
         <remote name="axp.os" 
               fetch="https://github.com/AXP-OS/"
               revision="axp-a13" />
+	
        <remote name="los" 
-              fetch="https://github.com/LineageOS" 
+              fetch="https://github.com/LineageOS"
               revision="lineage-20" />
+	
        <remote name="gos" 
-              fetch="https://github.com/GrapheneOS" 
+              fetch="https://github.com/GrapheneOS"
               revision="13" />
+	
        <remote name="muppets" 
-              fetch="https://github.com/TheMuppets" 
+              fetch="https://github.com/TheMuppets"
               revision="lineage-20" />
   
         <!-- FIRMWARE related repo, not shared public and even not on github bc they want money for LFS  -->
@@ -93,6 +97,10 @@
         <project path="external/buildtools" name="android_buildtools" remote="sfX" revision="main" />
         <!-- WireGuard VPN -->
         <project remote="zx2c4" name="wireguard-linux-compat" path="kernel/wireguard-linux-compat" sync-s="true" />
+	
+	<!-- temp until hopefully accepted upstream -->
+	<remove-project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" />
+	<project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault remote="axp.os" revision="patch-1"/>
 <!-- END OF AXP.OS REPOS -->
 
 <!-- START OF DEVICE REPOS -->
