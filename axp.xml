@@ -116,6 +116,7 @@
 
         <!-- oneplus - common -->
         <project path="hardware/oneplus" name="android_hardware_oneplus" remote="los" />
+	<project path="hardware/oplus" name="android_hardware_oplus" remote="los" />
         <project path="vendor/oneplus/msm8998-common" name="proprietary_vendor_oneplus_msm8998-common" remote="muppets" />
 
         <!-- sdm845 - common -->
