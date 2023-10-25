@@ -79,7 +79,7 @@
   
 <!-- START OF ADDITIONAL REPOS -->
         <!-- GrapheneOS -->
-        <project path="external/hardened_malloc" name="hardened_malloc" remote="gos" />
+        <project path="external/hardened_malloc" name="hardened_malloc" remote="gos" revision="8d5c63122499169df5fd9ed6e91fb116512a4745" />
 
         <!-- OpenEUICC -->
 	<project path="packages/apps/OpenEUICC" name="PeterCxy/OpenEUICC" remote="angry" revision="6add8c89ac141f177cd8d124a0a955232f4222f9" />
