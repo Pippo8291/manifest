@@ -82,7 +82,7 @@
         <project path="external/hardened_malloc" name="hardened_malloc" remote="gos" revision="8d5c63122499169df5fd9ed6e91fb116512a4745" />
 
         <!-- OpenEUICC -->
-	<project path="packages/apps/OpenEUICC" name="packages_apps_OpenEUICC" remote="axp.os" revision="android-13" />
+	<project path="packages/apps/OpenEUICC" name="packages_apps_OpenEUICC" remote="axp.os" revision="main" />
 	<project path="prebuilts/openeuicc-deps" name="PeterCxy/android_prebuilts_openeuicc-deps" remote="angry" revision="master" />
 <!-- END OF ADDITIONAL REPOS -->
 
