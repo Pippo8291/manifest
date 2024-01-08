@@ -128,7 +128,14 @@
         <project path="device/oneplus/sm8150-common" name="android_device_oneplus_sm8150-common" remote="axp.os" />
         <project path="kernel/oneplus/sm8150" name="android_kernel_oneplus_sm8150" remote="axp.os" />
         <project path="vendor/oneplus/sm8150-common" name="proprietary_vendor_oneplus_sm8150-common" remote="axp.os-private" />
-        
+
+	<!-- pixel - common -->
+	<project path="kernel/google/msm-4.14" name="LineageOS/android_kernel_google_msm-4.14" remote="github" revision="lineage-20" />
+	
+	<!-- Google Pixel 4a (sunfish) -->
+	<project path="device/google/sunfish" name="LineageOS/android_device_google_sunfish" remote="github" revision="lineage-20" />
+	<project path="vendor/google/sunfish" name="proprietary_vendor_google_sunfish" remote="axp.os-private" />
+	
         <!-- OnePlus 6T Pro (fajita) -->
         <project path="device/oneplus/fajita" name="android_device_oneplus_fajita" remote="axp.os" />
         <project path="vendor/oneplus/fajita" name="proprietary_vendor_oneplus_fajita" remote="muppets" />
