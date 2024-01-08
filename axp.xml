@@ -134,7 +134,7 @@
 	
 	<!-- Google Pixel 4a (sunfish) -->
 	<project path="device/google/sunfish" name="android_device_google_sunfish" remote="axp.os" />
-	<project path="vendor/google/sunfish" name="proprietary_vendor_google_sunfish" remote="axp.os-private" />
+	<project path="vendor/google/sunfish" name="proprietary_vendor_google_sunfish" remote="muppets" />
 	
         <!-- OnePlus 6T Pro (fajita) -->
         <project path="device/oneplus/fajita" name="android_device_oneplus_fajita" remote="axp.os" />
