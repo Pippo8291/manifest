@@ -35,7 +35,7 @@
  
         <!-- from DOS -->  
         <remote name="gitlab" fetch="https://gitlab.com/" />
-        <remote name="angry" fetch="https://gitea.angry.im/" />
+        <remote name="angry" fetch="https://gitea.angry.im/" sync-s="true" />
 <!-- END OF REMOTE DEFINITIONS -->
 
 <!-- START OF UNNECESSARY REPO REMOVAL -->
