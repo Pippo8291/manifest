@@ -143,6 +143,10 @@
         <!-- OnePlus 7T Pro (hotdog) -->
         <project path="device/oneplus/hotdog" name="android_device_oneplus_hotdog" remote="axp.os" />
         <project path="vendor/oneplus/hotdog" name="proprietary_vendor_oneplus_hotdog" remote="axp.os-private" />
+
+	<!-- OnePlus 7T (hotdogb) -->
+	<project path="device/oneplus/hotdogb" name="android_device_oneplus_hotdogb" remote="axp.os" />
+	<project path="vendor/oneplus/hotdogb" name="proprietary_vendor_oneplus_hotdogb" remote="muppets" revision="lineage-21" />
          
 <!-- END OF DEVICE REPOS -->
       
