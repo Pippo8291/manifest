@@ -22,6 +22,10 @@
        <remote name="muppets" 
               fetch="https://github.com/TheMuppets"
               revision="lineage-20" />
+
+	<remote name="gitlabmuppets" 
+              fetch="https://gitlab.com/the-muppets"
+              revision="lineage-20" />
   
         <!-- FIRMWARE related repo, not shared public and even not on github bc they want money for LFS  -->
         <remote name="axp.os-private" 
@@ -130,11 +134,18 @@
         <project path="vendor/oneplus/sm8150-common" name="proprietary_vendor_oneplus_sm8150-common" remote="axp.os-private" />
 
 	<!-- pixel - common -->
-	<project path="kernel/google/msm-4.14" name="LineageOS/android_kernel_google_msm-4.14" remote="github" revision="lineage-20" />
+	<project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="los" />
+	<project path="device/google/gs101" name="android_device_google_gs101" remote="los" />
+	<project path="kernel/google/gs101/private/gs-google" name="android_kernel_google_gs101" remote="los" />
 	
 	<!-- Google Pixel 4a (sunfish) -->
 	<project path="device/google/sunfish" name="android_device_google_sunfish" remote="axp.os" />
-	<project path="vendor/google/sunfish" name="proprietary_vendor_google_sunfish" remote="muppets" revision="lineage-20" />
+	<project path="vendor/google/sunfish" name="proprietary_vendor_google_sunfish" remote="muppets" />
+
+	<!-- Google Pixel 6a (bluejay) -->
+	<project path="device/google/bluejay" name="android_device_google_bluejay" remote="axp.os" />
+	<project path="vendor/google/bluejay" name="proprietary_vendor_google_bluejay" remote="gitlabmuppets" />
+	<!-- uses gs101 commons -->
 	
         <!-- OnePlus 6T Pro (fajita) -->
         <project path="device/oneplus/fajita" name="android_device_oneplus_fajita" remote="axp.os" />
