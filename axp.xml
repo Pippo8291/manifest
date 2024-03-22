@@ -136,7 +136,8 @@
 	<!-- pixel - common -->
 	<project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="los" />
 	<project path="device/google/gs101" name="android_device_google_gs101" remote="los" />
-	<project path="kernel/google/gs101/private/gs-google" name="android_kernel_google_gs101" remote="los" />
+	<!--project path="kernel/google/gs101/private/gs-google" name="android_kernel_google_gs101" remote="los" />-->
+	<project path="kernel/google/gs201/private/gs-google" name="android_kernel_google_gs201" remote="los" />
 	
 	<!-- Google Pixel 4a (sunfish) -->
 	<project path="device/google/sunfish" name="android_device_google_sunfish" remote="axp.os" />
@@ -145,7 +146,7 @@
 	<!-- Google Pixel 6a (bluejay) -->
 	<project path="device/google/bluejay" name="android_device_google_bluejay" remote="axp.os" />
 	<project path="vendor/google/bluejay" name="proprietary_vendor_google_bluejay" remote="gitlabmuppets" />
-	<!-- uses gs101 commons -->
+	<!-- uses gs101 commons + gs201 kernel -->
 	
         <!-- OnePlus 6T Pro (fajita) -->
         <project path="device/oneplus/fajita" name="android_device_oneplus_fajita" remote="axp.os" />
