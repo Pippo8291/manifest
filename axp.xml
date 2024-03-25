@@ -149,8 +149,8 @@
 	<!-- uses gs101 commons + gs201 kernel -->
 
 	<!-- Google Pixel 7 Pro (cheetah) -->
-	<project path="device/google/cheetah" name="LineageOS/android_device_google_cheetah" remote="axp.os" />
-	<project path="device/google/pantah" name="LineageOS/android_device_google_pantah" remote="axp.os" />
+	<project path="device/google/cheetah" name="android_device_google_cheetah" remote="axp.os" />
+	<project path="device/google/pantah" name="android_device_google_pantah" remote="axp.os" />
 	<project path="vendor/google/cheetah" name="proprietary_vendor_google_cheetah" remote="gitlabmuppets" />
 	<!-- uses gs201 commons + gs201 kernel -->
 	
