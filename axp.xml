@@ -136,7 +136,7 @@
 	<!-- pixel - common -->
 	<project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="los" />
 	<project path="device/google/gs101" name="android_device_google_gs101" remote="los" />
-	<project path="device/google/gs201" name="LineageOS/android_device_google_gs201" remote="los" />
+	<project path="device/google/gs201" name="android_device_google_gs201" remote="los" />
 	<project path="kernel/google/gs201/private/gs-google" name="android_kernel_google_gs201" remote="los" />
 	
 	<!-- Google Pixel 4a (sunfish) -->
