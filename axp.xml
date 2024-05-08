@@ -83,7 +83,7 @@
   
 <!-- START OF ADDITIONAL REPOS -->
         <!-- GrapheneOS -->
-        <project path="external/hardened_malloc" name="hardened_malloc" remote="gos" revision="8d5c63122499169df5fd9ed6e91fb116512a4745" />
+        <project path="external/hardened_malloc" name="hardened_malloc" remote="gos" revision="749640c274d54e084505a24fa758bcb5f96a25ef" />
 
         <!-- OpenEUICC (superseeded by prebuilt) -->
 	<!--project path="packages/apps/OpenEUICC" name="packages_apps_OpenEUICC" remote="axp.os" revision="main" sync-s="true" />-->
