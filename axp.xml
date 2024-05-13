@@ -13,7 +13,7 @@
 
 	<remote name="axp.os_kernel" 
               fetch="https://github.com/AXP-OS/"
-              revision="refs/tags/axp-a13_patched" />
+              revision="axp-a13_patched" />
 	
        <remote name="los" 
               fetch="https://github.com/LineageOS"
