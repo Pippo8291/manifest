@@ -145,8 +145,8 @@
         <project path="vendor/oneplus/sm8150-common" name="proprietary_vendor_oneplus_sm8150-common" remote="axp.os-private" />
 
 	<!-- pixel - common -->
-	<project path="device/google/gs101" name="android_device_google_gs101" remote="axp.os_kernel" />
-	<project path="device/google/gs201" name="android_device_google_gs201" remote="axp.os_kernel" />
+	<project path="device/google/gs101" name="android_device_google_gs101" remote="los" />
+	<project path="device/google/gs201" name="android_device_google_gs201" remote="los" />
 	<project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="axp.os_kernel" />
 	<project path="kernel/google/gs201/private/gs-google" name="android_kernel_google_gs201" remote="axp.os_kernel" />
 
