@@ -206,7 +206,7 @@
 	<!-- uses oneplus sm8150 - common kernel (see above) -->
 
 	<!-- Sony Xperia XZ2 Compact (xz2c) -->
-	<project path="device/sony/xz2c" name=android_device_sony_xz2c" remote="los" />
+	<project path="device/sony/xz2c" name="android_device_sony_xz2c" remote="los" />
         <project path="vendor/sony/xz2c" name="proprietary_vendor_sony_xz2c" remote="muppets" />
 	<!-- uses sony sdm845 - common kernel and tama-common (see above) -->
 	
