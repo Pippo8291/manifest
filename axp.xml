@@ -150,6 +150,7 @@
 	<project path="device/google/gs101" name="android_device_google_gs101" remote="axp.os" />
 	<project path="device/google/gs201" name="android_device_google_gs201" remote="axp.os" />
 	<project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="axp.os_kernel" />
+	<!--project path="kernel/google/gs101/private/gs-google" name="android_kernel_google_gs101" remote="axp.os_kernel" />-->
 	<project path="kernel/google/gs201/private/gs-google" name="android_kernel_google_gs201" remote="axp.os_kernel" />
 
 	<!-- sony - common -->
@@ -169,10 +170,13 @@
 	<!-- uses google - common msm-4.14 kernel (see above) -->
 
 	<!-- Google Pixel 6 (oriole/raven) -->
-	<project path="device/google/oriole" name="android_device_google_oriole" remote="los" />
-	<project path="device/google/raven" name="android_device_google_raven" remote="los" />
-	<project path="device/google/raviole" name="android_device_google_raviole" remote="axp.os" />
-	<project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="gitlabmuppets" />
+	<!-- DISABLED DUE TO MISSING TESTERS 
+	     see https://github.com/AXP-OS/issue-tracker/issues/12
+		<project path="device/google/oriole" name="android_device_google_oriole" remote="los" />
+		<project path="device/google/raven" name="android_device_google_raven" remote="los" />
+		<project path="device/google/raviole" name="android_device_google_raviole" remote="axp.os" />
+		<project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="gitlabmuppets" />
+	-->
 	<!-- uses google gs101 commons + common gs101 kernel (see above) -->
 	
 	<!-- Google Pixel 6a (bluejay) -->
