@@ -164,6 +164,7 @@
 
 	<!-- samsung - common -->
 	<project path="device/samsung/sm7125-common" name="android_device_samsung_sm7125-common" remote="axp.os" />
+	<project path="kernel/samsung/sm7125" name="android_kernel_samsung_sm7125" remote="los" />
 	
 	<!-- sony - common -->
 	<project path="kernel/sony/sdm845" name="android_kernel_sony_sdm845" remote="los" />
@@ -230,7 +231,7 @@
 	<!-- Samsung Galaxy A52 4G -->
 	<project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="los" />
         <project path="vendor/samsung/a52q" name="proprietary_vendor_samsung_a52q" remote="muppets" />
-	<!-- uses samsung - common (see above) --> 
+	<!-- uses samsung - common kernel and sm7125 (see above) --> 
 
 	<!-- Sony Xperia XZ2 Compact (xz2c) -->
 	<project path="device/sony/xz2c" name="android_device_sony_xz2c" remote="los" />
