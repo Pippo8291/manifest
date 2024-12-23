@@ -162,6 +162,9 @@
 	<!--project path="kernel/google/gs101/private/gs-google" name="android_kernel_google_gs101" remote="axp.os_kernel" />-->
 	<project path="kernel/google/gs201/private/gs-google" name="android_kernel_google_gs201" remote="axp.os_kernel" />
 
+	<!-- samsung - common -->
+	<project path="device/samsung/sm7125-common" name="android_device_samsung_sm7125-common" remote="axp.os" />
+	
 	<!-- sony - common -->
 	<project path="kernel/sony/sdm845" name="android_kernel_sony_sdm845" remote="los" />
 	<project path="device/sony/tama-common" name="android_device_sony_tama-common" remote="axp.os" />
@@ -223,6 +226,11 @@
 	<project path="device/oneplus/hotdogb" name="android_device_oneplus_hotdogb" remote="axp.os" />
 	<project path="vendor/oneplus/hotdogb" name="proprietary_vendor_oneplus_hotdogb" remote="muppets" />
 	<!-- uses oneplus sm8150 - common kernel (see above) -->
+
+	<!-- Samsung Galaxy A52 4G -->
+	<project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="los" />
+        <project path="vendor/samsung/a52q" name="proprietary_vendor_samsung_a52q" remote="muppets" />
+	<!-- uses samsung - common (see above) --> 
 
 	<!-- Sony Xperia XZ2 Compact (xz2c) -->
 	<project path="device/sony/xz2c" name="android_device_sony_xz2c" remote="los" />
