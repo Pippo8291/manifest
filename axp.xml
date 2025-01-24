@@ -92,7 +92,7 @@
   
 <!-- START OF ADDITIONAL REPOS -->
         <!-- GrapheneOS -->
-        <project path="external/hardened_malloc" name="hardened_malloc" remote="gos" revision="refs/tags/13" />
+        <project path="external/hardened_malloc" name="hardened_malloc" remote="gos" revision="refs/tags/14" />
 	<project path="packages/apps/CarrierConfig2" name="platform_packages_apps_CarrierConfig2" remote="gos" />
 
 	<!-- cherrypicker patch tool -->
@@ -102,11 +102,11 @@
 <!-- START OF AXP.OS REPOS -->
 
 	<!-- AXP.OS vendor -->
-        <project path="vendor/axp" name="vendor_axp" remote="axp.os" revision="main" />
+        <project path="vendor/axp" name="vendor_axp" remote="pippo" revision="main" />
         <!-- vendor/firmware repo - !not shared public! -->
         <project path="vendor/firmware" name="vendor_firmware" remote="axp.os-private" />
         <!-- extendrom -->
-        <project path="vendor/extendrom" name="android_vendor_extendrom" remote="sfX" revision="main" />
+        <project path="vendor/extendrom" name="android_vendor_extendrom" remote="pippo" revision="a14" />
         <!-- build tools -->
         <project path="external/buildtools" name="android_buildtools" remote="sfX" revision="main" />
         <!-- WireGuard VPN -->
