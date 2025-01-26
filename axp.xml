@@ -92,7 +92,7 @@
   
 <!-- START OF ADDITIONAL REPOS -->
         <!-- GrapheneOS -->
-        <project path="external/hardened_malloc" name="hardened_malloc" remote="gos" revision="refs/tags/14" />
+        <project path="external/hardened_malloc" name="hardened_malloc" remote="gos" revision="14" />
 	<project path="packages/apps/CarrierConfig2" name="platform_packages_apps_CarrierConfig2" remote="gos" />
 
 	<!-- cherrypicker patch tool -->
