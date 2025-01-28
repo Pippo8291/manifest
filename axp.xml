@@ -153,7 +153,7 @@
         <!--<project path="device/oneplus/sm8150-common" name="android_device_oneplus_sm8150-common" remote="axp.os" />-->
         <!--<project path="kernel/oneplus/sm8150" name="android_kernel_oneplus_sm8150" remote="axp.os_kernel" />-->
         <!--<project path="vendor/oneplus/sm8150-common" name="proprietary_vendor_oneplus_sm8150-common" remote="axp.os-private" />-->
-        <project path="kernel/oneplus/sm8150" name="android_kernel_oneplus_sm8150" remote="los" />
+        <project path="kernel/oneplus/sm8150" name="android_kernel_oneplus_sm8150" remote="pippo" />
 	<project path="vendor/oneplus/sm8150-common" name="proprietary_vendor_oneplus_sm8150-common" remote="muppets" />
         <project path="device/oneplus/sm8150-common" name="android_device_oneplus_sm8150-common" remote="pippo" />
 
