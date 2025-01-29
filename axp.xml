@@ -114,8 +114,8 @@
         <project remote="zx2c4" name="wireguard-linux-compat" path="kernel/wireguard-linux-compat" sync-s="true" />
 	
 	<!-- temp until hopefully accepted upstream -->
-	<remove-project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" />
-	<project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="axp.os" />
+	<!--<remove-project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" /> -->
+	<!--<project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="axp.os" /> -->
 
 	<!-- "non-existent" divestOS - only repos.
 	     the folders get created and filled on-the-fly during build by the divest scripts.
