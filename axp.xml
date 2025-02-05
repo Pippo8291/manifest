@@ -74,17 +74,14 @@
       	<!--<remove-project name="platform/packages/modules/AdServices" />-->
       	<remove-project name="platform/prebuilts/clang/host/darwin-x86" />
       	<remove-project name="platform/prebuilts/go/darwin-x86" />
-<!-- END OF UNNECESSARY REPO REMOVAL -->
 
-<!-- START OF BRANCH SWITCHING -->
-        <!-- Switch to the Mulch WebView -->
-        <remove-project name="LineageOS/android_external_chromium-webview_patches" />
-        <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm" />
-        <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
-        <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_x86" />
-        <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" />
-        <project path="external/chromium-webview" name="divested-mobile/mulch" groups="pdk" clone-depth="1" remote="gitlab" revision="master" />
-<!-- END OF BRANCH SWITCHING -->
+	<!-- Switch to the AOSmium WebView -->
+	<remove-project name="LineageOS/android_external_chromium-webview_patches" />
+	<remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm" />
+	<remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
+	<remove-project name="LineageOS/android_external_chromium-webview_prebuilt_x86" />
+	<remove-project name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" />
+<!-- END OF UNNECESSARY REPO REMOVAL -->
   
 <!-- START OF ADDITIONAL REPOS -->
         <!-- GrapheneOS -->
