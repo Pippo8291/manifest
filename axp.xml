@@ -157,6 +157,11 @@
         <project path="kernel/oneplus/sm8150" name="android_kernel_oneplus_sm8150" remote="axp.os_kernel" />
         <project path="vendor/oneplus/sm8150-common" name="proprietary_vendor_oneplus_sm8150-common" remote="axp.os-private" />
 
+	!-- oneplus sm8250 - common -->
+	<project path="device/oneplus/sm8250-common" name="LineageOS/android_device_oneplus_sm8250-common" remote="axp.os" />
+	<project path="kernel/oneplus/sm8250" name="LineageOS/android_kernel_oneplus_sm8250" remote="los" />
+	<project path="vendor/oneplus/sm8250-common" name="proprietary_vendor_oneplus_sm8250-common" remote="muppets" />
+
 	<!-- google - common -->
 	<project path="device/google/gs101" name="android_device_google_gs101" remote="axp.os" />
 	<project path="device/google/gs201" name="android_device_google_gs201" remote="axp.os" />
@@ -226,9 +231,13 @@
 	<project path="vendor/oneplus/hotdogb" name="proprietary_vendor_oneplus_hotdogb" remote="muppets" />
 	<!-- uses oneplus sm8150 - common kernel (see above) -->
 
+	<!-- OnePlus 8T (kebab) -->
+	<project path="device/oneplus/kebab" name="LineageOS/android_device_oneplus_kebab" remote="los" />
+	<project path="vendor/oneplus/kebab" name="proprietary_vendor_oneplus_kebab" remote="muppets" />
+
 	<!-- Samsung Galaxy A52 4G -->
-	<project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="los" />
-        <project path="vendor/samsung/a52q" name="proprietary_vendor_samsung_a52q" remote="muppets" />
+	<!--project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="los" />-->
+        <!--project path="vendor/samsung/a52q" name="proprietary_vendor_samsung_a52q" remote="muppets" />-->
 	<!-- uses samsung - common kernel and sm7125 (see above) --> 
 
 	<!-- Sony Xperia XZ2 Compact (xz2c) -->
