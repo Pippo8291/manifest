@@ -165,6 +165,7 @@
 	<!-- google - common -->
 	<project path="device/google/gs101" name="android_device_google_gs101" remote="axp.os" />
 	<project path="device/google/gs201" name="android_device_google_gs201" remote="axp.os" />
+	<project path="kernel/google/msm-4.9" name="android_kernel_google_msm-4.9" remote="los" />
 	<project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="axp.os_kernel" />
 	<project path="kernel/google/gs201/private/gs-google" name="android_kernel_google_gs201" remote="axp.os_kernel" />
 
@@ -182,6 +183,11 @@
 	  device specific repos
 	###############################################################
 	-->
+	<!-- Google Pixel 3a (sargo) -->
+	<project path="device/google/bonito" name="android_device_google_bonito" remote="axp.os" />
+	<project path="device/google/sargo" name="android_device_google_sargo" remote="los" />
+	<project path="vendor/google/sargo" name="proprietary_vendor_google_sargo" remote="muppets" />
+	<!-- uses google - common msm-4.9 kernel (see above) -->
 	
 	<!-- Google Pixel 4a (sunfish) -->
 	<project path="device/google/sunfish" name="android_device_google_sunfish" remote="axp.os" />
