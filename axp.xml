@@ -183,6 +183,17 @@
 	  device specific repos
 	###############################################################
 	-->
+
+ <!-- Fairphone 3 (FP3) -->
+	<project path="device/fairphone/FP3" name="android_device_fairphone_FP3" remote="los" />
+	<project path="kernel/fairphone/sdm632" name="android_kernel_fairphone_sdm632" remote="los" />
+  <project path="vendor/fairphone/FP3" name="proprietary_vendor_fairphone_FP3" remote="muppets" />
+
+	<!-- Fairphone 4 (FP4) -->
+	<project path="device/fairphone/FP4" name="android_device_fairphone_FP4" remote="los" />
+	<project path="kernel/fairphone/sm7225" name="android_kernel_fairphone_sm7225" remote="los" />
+	<project path="vendor/fairphone/FP4" name="proprietary_vendor_fairphone_FP4" remote="muppets" />
+
 	<!-- Google Pixel 3a (sargo) -->
 	<project path="device/google/bonito" name="android_device_google_bonito" remote="axp.os" />
 	<project path="device/google/sargo" name="android_device_google_sargo" remote="los" />
