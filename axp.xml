@@ -187,7 +187,7 @@
  <!-- Fairphone 3 (FP3) -->
 	<project path="device/fairphone/FP3" name="android_device_fairphone_FP3" remote="los" />
 	<project path="kernel/fairphone/sdm632" name="android_kernel_fairphone_sdm632" remote="los" />
-  <project path="vendor/fairphone/FP3" name="proprietary_vendor_fairphone_FP3" remote="muppets" />
+  	<project path="vendor/fairphone/FP3" name="proprietary_vendor_fairphone_FP3" remote="muppets" />
 
 	<!-- Fairphone 4 (FP4) -->
 	<project path="device/fairphone/FP4" name="android_device_fairphone_FP4" remote="los" />
