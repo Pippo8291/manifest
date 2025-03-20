@@ -44,10 +44,6 @@
         <remote name="axp.os-private" 
               fetch="ssh://git@code.binbash.rocks:22443/AXP.OS"
               revision="axp-a13" />
-	
-	<remote name="aos-mirror" 
-              fetch="https://codeberg.org/AXP-OS"
-              revision="axp-a13" />
 
         <!-- Wireguard module -->
         <remote name="zx2c4" 
