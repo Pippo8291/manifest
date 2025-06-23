@@ -262,6 +262,11 @@
 	<project path="device/sony/kirin" name="android_device_sony_kirin" remote="los" />
 	<project path="vendor/sony/kirin" name="proprietary_vendor_sony_kirin" remote="muppets" />
 	<!-- uses sony nile-common (see above) -->
+
+	<!-- Sony Xperia 10 Plus (mermaid) -->
+	<project path="device/sony/mermaid" name="android_device_sony_mermaid" remote="los" />
+	<project path="vendor/sony/mermaid" name="proprietary_vendor_sony_mermaid" remote="muppets" />
+	<!-- uses sony nile-common (see above) -->
 	
 	<!-- Sony Xperia XZ2 Compact (xz2c) -->
 	<project path="device/sony/xz2c" name="android_device_sony_xz2c" remote="los" />
