@@ -239,6 +239,11 @@
         <project path="vendor/oneplus/fajita" name="proprietary_vendor_oneplus_fajita" remote="muppets" />
 	<!-- uses oneplus sdm845 - common kernel + common device (see above) -->
 
+	<!-- OnePlus 7 Pro (guacamole) -->
+	<project path="device/oneplus/guacamole" name="android_device_oneplus_guacamole" remote="los" />
+	<project path="vendor/oneplus/guacamole" name="proprietary_vendor_oneplus_guacamole" remote="muppets" />
+	<!-- uses oneplus sm8150 - common kernel (see above) -->
+	
         <!-- OnePlus 7T Pro (hotdog) -->
         <project path="device/oneplus/hotdog" name="android_device_oneplus_hotdog" remote="axp.os" />
         <project path="vendor/oneplus/hotdog" name="proprietary_vendor_oneplus_hotdog" remote="axp.os-private" />
