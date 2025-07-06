@@ -241,6 +241,11 @@
 	<project path="vendor/oneplus/cheeseburger" name="proprietary_vendor_oneplus_cheeseburger" remote="muppets" />
 	<!-- uses oneplus msm8998 - common -->
 
+	<!-- OnePlus 5T (dumpling) -->
+	<project path="device/oneplus/dumpling" name="android_device_oneplus_dumpling" remote="los" />
+	<project path="vendor/oneplus/dumpling" name="proprietary_vendor_oneplus_dumpling" remote="muppets" />
+	<!-- uses oneplus msm8998 - common -->
+
 	<!-- OnePlus 6 (enchilada) -->
 	<project path="device/oneplus/enchilada" name="android_device_oneplus_enchilada" remote="los" />
 	<project path="vendor/oneplus/enchilada" name="proprietary_vendor_oneplus_enchilada" remote="muppets" />
