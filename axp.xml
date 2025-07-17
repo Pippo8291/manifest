@@ -172,7 +172,7 @@
         <project path="vendor/oneplus/sm8150-common" name="proprietary_vendor_oneplus_sm8150-common" remote="axp.os-private" />
 	-->
 
-	!-- oneplus sm8250 - common -->
+	<!-- oneplus sm8250 - common -->
 	<!--
 	<project path="device/oneplus/sm8250-common" name="android_device_oneplus_sm8250-common" remote="axp.os" />
 	<project path="kernel/oneplus/sm8250" name="android_kernel_oneplus_sm8250" remote="los" />
