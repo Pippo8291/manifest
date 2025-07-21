@@ -61,7 +61,6 @@
       	<remove-project name="LineageOS/android_external_rsync" />
       	<remove-project name="LineageOS/android_external_unrar" />
       	<remove-project name="LineageOS/android_packages_apps_Jelly" />
-      	<!--<remove-project name="LineageOS/android_packages_apps_Stk" />-->
       	<remove-project name="LineageOS/charter" />
       	<remove-project name="LineageOS/cm_crowdin" />
       	<remove-project name="LineageOS/contributors-cloud-generator" />
@@ -74,7 +73,6 @@
       	<remove-project name="platform/packages/apps/MusicFX" />
       	<remove-project name="platform/packages/apps/QuickSearchBox" />
       	<remove-project name="platform/packages/apps/SampleLocationAttribution" />
-      	<!--<remove-project name="platform/packages/modules/AdServices" />-->
       	<remove-project name="platform/prebuilts/clang/host/darwin-x86" />
       	<remove-project name="platform/prebuilts/go/darwin-x86" />
 
@@ -107,10 +105,6 @@
         <project remote="zx2c4" name="wireguard-linux-compat" path="kernel/wireguard-linux-compat" sync-s="true" />
 	<!-- CVE Kernel patcher -->
 	<project path="external/cve_kernel_patches" name="kernel_patches" remote="aos-mirror" revision="main" />
-	
-	<!-- temp until hopefully accepted upstream -->
-	<!--remove-project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" />-->
-	<!--project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="axp.os" />-->
 
 	<!-- "non-existent" divestOS - only repos.
 	     the folders get created and filled on-the-fly during build by the divest scripts.
