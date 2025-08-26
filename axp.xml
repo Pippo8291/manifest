@@ -313,7 +313,6 @@
 	<!-- uses device_oneplus_sm8150-common / kernel_oneplus_sm8150 -->
 	<project path="device/oneplus/hotdog" name="android_device_oneplus_hotdog" remote="axp.os" />
 	<project path="vendor/oneplus/hotdog" name="proprietary_vendor_oneplus_hotdog" remote="axp.os-private" />
-	<!-- uses oneplus sm8150 - common kernel (see above) -->
 
 	<!-- OnePlus 7T (hotdogb) -->
 	<!--
