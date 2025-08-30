@@ -136,10 +136,8 @@
         <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" remote="los" />
 
         <!-- oneplus - common -->
-        <!--
 	<project path="hardware/oneplus" name="android_hardware_oneplus" remote="los" />
 	<project path="hardware/oplus" name="android_hardware_oplus" remote="los" />
-	-->
 
 	<!-- oneplus msm8998 - common -->
         <!--
