@@ -184,7 +184,7 @@
 	<project path="kernel/google/msm-4.9" name="android_kernel_google_msm-4.9" remote="los" />
 	<project path="kernel/google/gs201/private/gs-google" name="android_kernel_google_gs201" remote="axp.os_kernel" />
 	-->
-	<project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="axp.os_kernel" />
+	<project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="axp.os" />
 	
 	<!-- samsung - common -->
 	<!--
@@ -231,8 +231,9 @@
 	<!-- uses google - common msm-4.9 kernel (see above) -->
 	
 	<!-- Google Pixel 4a (sunfish) -->
+	<!-- uses device_google_sunfish / kernel_google_msm-4.14 -->
 	<project path="device/google/sunfish" name="android_device_google_sunfish" remote="axp.os" />
-	<project path="vendor/google/sunfish" name="proprietary_vendor_google_sunfish" remote="muppets" />
+	<project path="vendor/google/sunfish" name="proprietary_vendor_google_sunfish" remote="axp.os-private" />
 	<!-- uses google - common msm-4.14 kernel (see above) -->
 
 	<!-- Google Pixel 6 (oriole/raven) -->
